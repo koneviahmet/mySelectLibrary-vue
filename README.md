@@ -1,2 +1,2 @@
-# mySelectLibrary-vue
-seçtiğim kütüphaneler.
+# vue-taslak
+vue-taslak

@@ -1,0 +1,41 @@
+{
+  "name": "todo-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "db": "json-server --watch db/db.json --port 3004"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.5",
+    "@tailwindcss/typography": "^0.4.1",
+    "axios": "^0.24.0",
+    "daisyui": "^1.16.2",
+    "draggable-panel": "^1.0.9",
+    "notyf": "^3.10.0",
+    "secure-ls": "^1.2.6",
+    "sweetalert2": "^11.1.10",
+    "vee-validate": "^4.5.6",
+    "vue-draggable-next": "^2.1.1",
+    "vue-email-editor": "^2.0.0",
+    "vue-router": "^4.0.12",
+    "vue-skeletor": "^1.0.6",
+    "vue-spinner": "^1.0.4",
+    "vue3-excel-editor": "^1.0.15",
+    "vue3-marquee": "^3.1.2",
+    "vuejs-paginate-next": "^1.0.2",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.18.11/xlsx-0.18.11.tgz",
+    "yoyoo-ddr-vue3": "^1.0.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4"
+  }
+}
