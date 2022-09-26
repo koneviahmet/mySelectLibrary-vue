@@ -6,9 +6,10 @@
       
       <div class="mt-6">
         <div>
-            Click <a class="font-bold text-blue-500" target="_blank" href="https://www.npmjs.com/package/vuedraggable">here</a> from npm package 
+            Click <a class="font-bold text-blue-500" target="_blank" href="https://github.com/devforth/painterro">here</a> from npm package 
         </div>
         <One v-if="tab == 'one'"/>
+        <Two v-if="tab == 'two'"/>
       </div>
   </div>
 </template>
@@ -17,14 +18,19 @@
 <script setup>
 
 import One from './one.vue'
+import Two from './two.vue'
 import {ref} from "vue"
 
-const tab = ref("one")
+const tab = ref("two")
 
 const menu = [
   {
     id: "one",
     title: "1"
+  },
+  {
+    id: "two",
+    title: "2"
   }
 ]
 
