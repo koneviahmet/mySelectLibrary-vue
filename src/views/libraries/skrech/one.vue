@@ -1,0 +1,3 @@
+<template>
+    bir olacak
+</template>

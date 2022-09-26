@@ -13,56 +13,74 @@
         <Six v-if="tab == 'six'"/>
         <Seven v-if="tab == 'seven'"/>
         <Eight v-if="tab == 'eight'"/>
+        <Nine v-if="tab == 'nine'"/>
+        <Ten v-if="tab == 'ten'"/>
+        <Eleven v-if="tab == 'eleven'"/>
       </div>
   </div>
 </template>
 
 
 <script setup>
-import One from './exercises/one/main.vue'
-import Two from './exercises/two/main.vue'
-import Three from './exercises/three/main.vue'
-import Four from './exercises/four/main.vue'
-import Five from './exercises/five/main.vue'
-import Six from './exercises/six/main.vue'
-import Seven from './exercises/seven/main.vue'
-import Eight from './exercises/eight/main.vue'
+import One from './libraries/one/main.vue'
+import Two from './libraries/two/main.vue'
+import Three from './libraries/three/main.vue'
+import Four from './libraries/four/main.vue'
+import Five from './libraries/five/main.vue'
+import Six from './libraries/six/main.vue'
+import Seven from './libraries/seven/main.vue'
+import Eight from './libraries/eight/main.vue'
+import Nine from './libraries/nine/main.vue'
+import Ten from './libraries/ten/main.vue'
+import Eleven from './libraries/eleven/main.vue'
 import {ref} from "vue"
 
-const tab = ref(null)
+const tab = ref("ten")
 
 const menu = [
   {
     id: "one",
-    title: "One"
+    title: "1"
   },
   {
     id: "two",
-    title: "Two"
+    title: "2"
   },
   {
     id: "three",
-    title: "Three"
+    title: "3"
   },
   {
     id: "four",
-    title: "Four"
+    title: "4"
   },
   {
     id: "five",
-    title: "Five"
+    title: "5"
   },
   {
     id: "six",
-    title: "Six"
+    title: "6"
   },
   {
     id: "seven",
-    title: "seven"
+    title: "7"
   },
   {
     id: "eight",
-    title: "eight"
+    title: "8"
+  },
+  {
+    id: "nine",
+    title: "9"
+  },
+  {
+    id: "ten",
+    title: "10"
+  },
+  {
+    id: "eleven",
+    title: "11"
   }
 ]
 

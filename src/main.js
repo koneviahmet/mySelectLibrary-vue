@@ -6,6 +6,7 @@ import store from "./store";
 import can from './directives/can'
 import VueExcelEditor from 'vue3-excel-editor'
 
+
 const app = createApp(App);
 app.directive('can', can)
 app.use(VueExcelEditor);
